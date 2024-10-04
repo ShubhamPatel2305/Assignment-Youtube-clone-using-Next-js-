@@ -1,6 +1,6 @@
 function VideoCard(){
-    return <div className="w-96">
-        <img src="/thumbnail.png" className="rounded-lg"></img>
+    return <div className="max-w-full">
+        <img src="/thumbnail.png" className="rounded-lg w-full"></img>
         <div className="grid grid-cols-8">
             <div className="col-span-1 my-2">
                 <img src="/thumbnail.png" className="rounded-full w-8 h-8"></img>
